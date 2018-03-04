@@ -2,7 +2,7 @@ from pycom import heartbeat, rgbled
 from alarm import Alarm
 
 heartbeat(False)
-alarm = Alarm(15*60)
+alarm = Alarm(5*60)
 
 
 # while True:
